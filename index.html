@@ -50,7 +50,114 @@
         
     </header>
     <footer>
-        <img src="/red_panda.jpg" alt="Red panda in its natural habitat" width="500" height="300"/>
+        <details>
+            <summary>Expand to see red panda image and information about it!</summary>
+            <img src="/red_panda.jpg" alt="Red panda in its natural habitat" width="500" height="300"/>
+            <br>
+            <label for="info">Learn more about the red panda:</label>
+            <br>
+            <textarea id="info" name="redInfo" rows="4" cols="70">The red panda, also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail.
+            </textarea>
+        </details>
+
+        <hr>
+
+        <h3>Now it's time for you to fill out a form.</h3>
+
+        <form action="" method="get" class="qcc">
+            <div class="qcc">
+                <label for="current">Today's date:</label>
+                <input type="date" id="current" name="current-date" value="2024-04-17" min="2024-04-01" max="2024-06-14"/>
+            </div>
+            <div class="qcc">
+                <label for="questions">Ask any questions you may have about <b>HTML</b> or <b>markdown: </b></label>
+                <input type="text" name="questions" id="questions" required />
+            </div>
+            <div class="qcc">
+                <label for="comments">Enter any comments or concerns: </label>
+                <input type="text" name="comments" id="comments" required/>
+            </div>
+            <div class="qcc">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <label for="password">Make a password (5 to 10 characters): </label>
+            <input type="password" id="password" name="password" required minlength="5" maxlength="10" size="10" />
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Now it's your time to choose your favorite language</legend>
+                <input type="radio" id="Python" name="language" value="P" />
+                <label for="Python">Python</label><br />
+
+                <input type="radio" id="Java" name="Java" value="J" />
+                <label for="Java">Java</label><br />
+
+                <input type="radio" id="C" name="C" value="C" />
+                <label for="C">C</label><br />
+            </fieldset>
+        </form>
+
+        <fieldset>
+            <legend>Types of input that we need to learn:</legend>
+            <div>
+                <input type="checkbox" id="checkbox" name="checkbox" checked />
+                <label for="checkbox">Checkbox</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="radio" name="radio" checked />
+                <label for="radio">Radio</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="text" name="text" checked />
+                <label for="text">Text</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="date" name="date" />
+                <label for="date">Date</label>
+            </div>
+        </fieldset>
+
+        <label for="time-needed">How much more time do you need to understand these concepts:</label>
+        <input list="time-slots" id="time-needed" name="time-needed"/>
+
+        <datalist id="time-slots">
+            <option value="5 minutes"></option>
+            <option value="15 minutes"></option>
+            <option value="30 minutes"></option>
+            <option value="45 minutes"></option>
+            <option value="1 hour"></option>
+        </datalist>
+
+        <br>
+
+        <label for="class-select">Choose your favorite CSE class:</label>
+        <select name="classes" id="class-select">
+            <option value="">Choose an option</option>
+            <option value="CSE 8A">CSE 8A</option>
+            <option value="CSE 11">CSE 11</option>
+            <option value="CSE 12">CSE 12</option>
+            <option value="CSE 30">CSE 30 &#129314</option>
+            <option value="CSE 100">CSE 100</option>
+            <option value="CSE 110">CSE 110</option>
+        </select>
+
+        <div>
+            <button class="submit" type="button">Submit your entries</button>
+        </div>
+
+        <video controls width="250">
+            <source src="/iPh6 battery replace ver2.mp4" type="video/mp4" />
+        </video>
+        <figure>
+            <figcaption>Listen to the audio as a sample:</figcaption>
+            <audio controls src="/iPh6 battery replace ver2 audio.mp3"></audio>
+        </figure>
+
     </footer>
   </body>
 </html>
