@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-[My HTML site!](https://mdimapilis.github.io/Lab2_Starter/)
+[Lab 3 Site!](https://mdimapilis.github.io/sp24-cse110-lab3/)
