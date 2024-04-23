@@ -1,3 +1,10 @@
+/*body background to aliceblue*/
 body {
     background-color: aliceblue;
+}
+
+nav {
+    color: rgb(230, 148, 40);
+    text-align: center;
+    text-decoration: overline #808000 5px;
 }
