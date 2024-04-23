@@ -12,3 +12,18 @@ nav {
 h1 {
     color: hsla(30, 100%, 50%, 0.6);
 }
+
+p {
+    border-style: groove;
+    border-color: greenyellow;
+    border-width: 0.5em;
+    border-radius: 20px;
+
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 0px;
+
+    margin: 20px 30px 30px 23px;
+
+}
