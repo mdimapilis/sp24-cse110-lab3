@@ -8,3 +8,7 @@ nav {
     text-align: center;
     text-decoration: overline #808000 5px;
 }
+
+h1 {
+    color: hsla(30, 100%, 50%, 0.6);
+}
