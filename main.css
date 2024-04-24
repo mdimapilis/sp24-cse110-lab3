@@ -1,6 +1,10 @@
+:root {
+    --main-bg-color: aliceblue;
+  }
+
 /*body background to aliceblue*/
 * {
-    background-color: aliceblue;
+    background-color: var(--main-bg-color);
 }
 
 nav {
@@ -9,12 +13,13 @@ nav {
     text-decoration: overline #808000 5px;
 }
 
-h1 {
+h1, h4 {
     color: hsla(100, 79%, 22%, 0.6);
     position: sticky;
     top: 20px;
     background-color: lightgrey;
     border: 4px solid color(display-p3 1 0.5 0 / 0.5);
+    font-family: "Times New Roman", Times, serif;
 }
 
 p:hover {
@@ -27,9 +32,11 @@ p:hover {
     padding-top: 4px;
     padding-bottom: 10px;
     padding-left: 6px;
-    padding-right: 0px;
+    padding-right: 8px;
 
     margin: 20px 30px 30px 23px;
+
+    display: inline-block;
 
 }
 
@@ -45,6 +52,11 @@ p:hover {
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    position: relative;
+    left: 650px; top: 40px;
+
+    display: inline;
+
 }
 
 .submit:active {
@@ -62,4 +74,63 @@ h2 {
   margin-bottom: 3em;
   margin-left: 3px;
   margin-right: 12px;
+
+}
+
+#info {
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.Team {
+    border-style: groove;
+    border-color: color-mix(in srgb, #34c9eb 20%, white);
+    border-width: 1em;
+    border-radius: 1px;
+
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 0px;
+
+    margin: auto;
+}
+
+form.qcc {
+    color: aqua;
+}
+
+footer div[class] {
+    color: darkred;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body > header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+form ~ fieldset {
+    color: lightsalmon;
+    display: flex;
+}
+
+h3 + ol {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgoldenrod;
+}
+
+form:has(label) {
+    color: firebrick;
+}
+
+footer > details {
+
+    color: hotpink;
+
+    textarea {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: violet;
+    }
+
 }
