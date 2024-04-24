@@ -17,7 +17,7 @@ h1 {
     border: 4px solid #64676b;
 }
 
-p {
+p:hover {
     border-style: groove;
     border-color: greenyellow;
     border-width: 0.5em;
