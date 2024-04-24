@@ -37,4 +37,15 @@ p:hover {
     color: purple;
 }
 
+.submit {
+    width: 10ex;
+    height: 5em;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
 
+.submit:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
